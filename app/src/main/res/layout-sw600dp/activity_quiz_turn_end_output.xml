@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".TurnEnd.TurnEndOutput.QuizTurnEndOutputActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TURN END"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:gravity="center_horizontal"
+        android:text="OUTPUT"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:paddingRight="30dp"
+        android:id="@+id/gambarQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_below="@+id/judul2"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="100dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/t_apel" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambarQuiz"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Next"
+        android:textSize="50sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".Form.SubMenuFormActivity"></activity>
+        <activity android:name=".Form.Imitation.ShortItemImitationActivity" />
+        <activity android:name=".Form.ShortItem.ShortItemDiscriminationActivity" />
+        <activity android:name=".TurnEnd.SubMenuTurnEndActivity" />
+        <activity android:name=".TurnEnd.TurnEndOutput.TurnEndOutputMulaiActivity" />
+        <activity android:name=".TurnEnd.TurnEndOutput.QuizTurnEndOutputActivity" />
+        <activity android:name=".TurnEnd.TurnEndInput.TurnEndMulaiActivity" />
+        <activity android:name=".HasilNilaiActivity" />
+        <activity android:name=".TurnEnd.TurnEndInput.QuizTurnEndInput" />
+        <activity android:name=".SubMenu_Function" />
+        <activity android:name=".SubMenu" />
+        <activity android:name=".menuutama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
